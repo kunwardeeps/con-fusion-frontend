@@ -13,7 +13,7 @@
     </div>
   </div>
 
-  <div fxFlex="40" *ngIf="dish">
+  <div fxFlex="40" *ngIf="dish" [@visibility]="visibility" [@expand]="expand">
     <mat-card>
       <mat-card-header>
         <mat-card-title>
@@ -41,7 +41,7 @@
     <h4>{{errMess}}</h4>
   </div>
 
-  <div fxFlex="40" *ngIf="dish">
+  <div fxFlex="40" *ngIf="dish" [@visibility]="visibility">
     <form novalidate #cform="ngForm" [formGroup]="commentForm" (ngSubmit)="onSubmit()">
       <h1>Comments</h1>
       <mat-list>
