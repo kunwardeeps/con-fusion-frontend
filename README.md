@@ -1,6 +1,12 @@
 # ConFusion
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.1.
+A restaurant website project developed in Angular 6 for frontend and a simple json-server for backend with Angular Material Layout.
+
+## Screenshots
+![1](/ss1.png)
+![2](/ss2.png)
+![2](/ss3.png)
+![2](/ss4.png)
 
 ## Development server
 
